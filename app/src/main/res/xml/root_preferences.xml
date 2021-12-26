@@ -1,11 +1,13 @@
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="Preference category">
+
+    <PreferenceCategory android:title="Preference Category Felipe">
 
         <SwitchPreference
             android:defaultValue="false"
             android:key="switch_preference_1"
-            android:title="Mostrar linea de separacion enre elementos del listado" />
+            android:title="Mostrar linea de separacion entre elementos del listado" />
         <ListPreference
             android:defaultValue="1"
             android:entries="@array/tipos_visualizacion"
